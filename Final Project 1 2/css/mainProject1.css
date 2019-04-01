@@ -1,0 +1,410 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+
+article {
+	width: 1024px;
+	margin: 0px auto 0px auto;
+	
+}
+
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+video {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+/* *img {
+    vertical-align: middle;
+}
+*/
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+.image-slider {
+	position:relative;
+	display: inline-block;
+	line-height: 0;
+}
+
+/* Could use a pseudo-element, but they’re currently
+   super buggy. See: http://dabblet.com/gist/ab432c3f6a8f672cd077 */
+.image-slider > div {
+	position: absolute;
+	top: 0; bottom: 0; left: 0;
+	width: 25px;
+	max-width: 100%;
+	overflow: hidden;
+	resize: horizontal;
+}
+
+/* Cross-browser resizer styling */
+.image-slider > div:before {
+	content: '';
+	position: absolute;
+	right: 0; bottom: 0;
+	width: 13px; height: 13px;
+	padding: 5px;
+	background: linear-gradient(-45deg, white 50%, transparent 0);
+	background-clip: content-box;
+	cursor: ew-resize;
+	-webkit-filter: drop-shadow(0 0 2px black);
+	filter: drop-shadow(0 0 2px black);
+}
+
+.image-slider img {
+	user-select: none;
+	max-width: 400px;
+}
+
+/* ==========================================================================
+   Nav Bar styles
+   ========================================================================== */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: orange;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: limegreen;
+}
+
+.active {
+    background-color: blue;
+}
+
+
+/* ==========================================================================
+   Author's custom styles========================================================================== */
+img {width:100%;
+}
+nav {
+	padding: 0px;
+	margin: 0px;
+}
+nav a {
+  float: left;
+  display: block;
+  color: #505A82;
+  font: normal 28px Optima;
+  text-align: center;
+  padding: 25px 48.5px;
+  text-decoration: none;
+  border-right: 3px solid #505A82;
+  border-left: 3px solid #505A82;a
+  border-top: 3px solid #505A82;
+  border-bottom: 3px solid #505A82;
+  background-color:#FFE28D;
+}
+
+
+nav a:hover {
+  background-color: #FF611C;
+
+}
+
+#leftcontent{
+    background-color: #FFE28D;
+    width: 300px;
+    height: 450px;
+    font: normal 20px Optima; 
+    color: #505A82;
+    float:left;
+    margin: 30px 5px 5px 5px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    border-radius: 25px;
+
+}
+
+#rightcontent {
+    background-color: #FFE28D;
+    width: 400px;
+    height:200px;
+    font: bold 30px Optima;
+    color: #505A82;
+    float: right;
+    margin:30px 150px 5px 5px;
+    text-align:center;
+    border-radius: 25px;
+}
+
+footer {
+    float: right;
+    margin: 30px 110px 5px 5px;
+    text-align: center;
+    font: normal 28px Optima;
+    color: #505A82;
+    
+}
+
+feature {
+    background: url'..foodbannerhome.jpg');
+	background-position: center; 
+	background-size: cover;
+
+}
+
+#quoteimage {
+    background-color: #FFE28D;
+    width: 300px;
+    height: 400px;
+    font: bold 30px Optima; 
+    color: #505A82;
+    text-align: center;
+    float:left;
+    margin: 30px 5px 5px 5px;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-bottom:30px;
+    border-radius: 25px; 
+}
+
+ #benefits {
+	background-color: #FFE28D;
+	width: 250px;
+    height: 300px;
+	border-radius: 150px;
+	padding: 60px 17px 0px 17px;
+	float: left;
+	margin: 75px 5px 30px 65px;
+    font: bold 28px Optima;
+    text-align:center;
+    color:#505A82;
+
+}
+
+#benefits a: hover {background-color: #FF611C}
+    
+#location{
+    background-color: #FFE28D;
+    width: 300px;
+    height: 400px;
+    font: bold 30px Optima; 
+    color: #505A82;
+    text-align: center;
+    float:left;
+    margin: 30px 5px 5px 35px;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-bottom:30px;
+    border-radius: 25px; 
+    
+}
+#title {
+    font: bold 30px Optima; 
+    color: #505A82;
+    text-align: center;
+    
+}
+
+div.descriptions  {
+	background-color: #FFE28D;
+	width: 250px;
+	border-radius: 10px;
+	padding: 13px 17px 13px 17px;
+	float: left;
+	margin: 20px 20px 20px 37px;
+
+}
+
+div.descriptions img {
+    width: 200px;
+    height:140px;
+    border-radius: 25px;
+    image-orientation: center;
+}
+    
+div.descriptions h1 {
+	color: #505A82;
+	font: bold 30px Optima;
+    text-align: center;
+}
+
+div.descriptions a {
+	display: block;
+	background-color: #FF611C;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	color: #505A82;
+	font: bold 20px Optima;
+	border: 2px solid #505A82;
+}
+
+div.descriptions a:hover {
+    background-color: #FF611C;
+}
+
+#bottom {
+
+    background-color: #FFE28D;
+	width: 500px;
+    height: 75px;
+	float: left;
+	margin: 110px 5px 30px 65px;
+    font: bold 28px Optima;
+    text-align: center;
+    color:#505A82;
+    border: 3px solid #505A82;
+    padding: 5px 5px 5px 5px 
+    
+}
+
+#chat {
+    background-color: #FF611C;
+	width: 200px;
+    height: 100px;
+	border-radius: 150px;
+	float: left;
+    padding: 5px 5px 100px 5px;
+	margin: 50px 5px 5px 65px;
+    font: bold 28px Optima;
+    text-align:center;
+    color:#505A82;
+    border: 3px solid #505A82;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
